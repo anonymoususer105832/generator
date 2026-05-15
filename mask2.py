@@ -38,7 +38,7 @@ def run_masking_ui():
     root.withdraw()
     root.attributes('-topmost', True)
     # file_path = filedialog.askopenfilename(title="이미지 선택")
-    file_path = r"C:\Users\user\jupyter\photos\original.jpg"
+    file_path = "./original.jpg"
 
     
     root.destroy()
