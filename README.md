@@ -10,6 +10,8 @@ additional_mask2에서, 마스크가 적용될 부분을 세부적으로 수정.
 
 
 
-openvino를 전제하고 만든 파일. gpu가 있다면 torch gpu버전을 다운받고 해당 부분을 수정하면 됨.
+openvino 사용(gpu X) 전제하고 만든 파일. gpu가 있다면 torch gpu버전을 다운받고 해당 부분을 수정하면 됨.
 
 아니라면, 사용할 모델을 다운받고 openvino_setup로 해당 모델 safetensor 파일을 openvino로 컴포팅하면 됨.
+
+Huggingface나 Civitai같은 곳에서 safetensor 다운로드 가능. inpainting이 목적이므로 해당 모델들을 다운받는 것을 추천함.
